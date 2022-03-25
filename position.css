@@ -1,0 +1,72 @@
+nav{
+    position: fixed;
+    max-height:4rem;
+    height: 4rem;
+    width: 100%;      
+    background: rgb(38, 63, 207);
+    color: #fff;
+    top:0;
+    left:0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+    z-index: 10;
+}
+
+#welcome-section{
+    height: 100vh;
+    width: 100%;
+}
+
+#projects{
+    height:100vh;
+    margin: -8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+    padding: 20px;
+}
+
+.project-title{
+    text-align: center;
+    margin:5px;
+}
+
+#about-me{
+    margin-right: -8px;
+    margin-left:-8px;
+    padding-top:4rem;
+    height: 100vh;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+    
+.div1 { grid-area: 1 / 1 / 2 / 6; }
+.div2 { grid-area: 2 / 1 / 6 / 4; }
+.div3 { grid-area: 2 / 1 / 3 / 4; }
+.div4 { grid-area: 3 / 1 / 5 / 4; }
+.div5 { grid-area: 5 / 1 / 6 / 4; }
+.div6 { grid-area: 2 / 4 / 6 / 6; }
+
+.parent-div3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+    
+.div3-1 { grid-area: 1 / 1 / 2 / 4; }
+.div3-2 { grid-area: 2 / 1 / 3 / 2; }
+.div3-3 { grid-area: 2 / 2 / 3 / 3; }
+.div3-4 { grid-area: 2 / 3 / 3 / 4; }
