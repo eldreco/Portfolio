@@ -224,8 +224,25 @@ nav a{
 }
 
 .div6{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: 10px outset rgb(38, 63, 207);
     border-radius: 5px;
     margin-right: 15px;
     margin-top: -60px;
+    display: grid;
+    grid-template-rows: 0.1fr 2fr 1fr 1fr; 
+}
+
+.div6-1{
+    justify-self: center;
+    align-self: center;
+    font-size: larger;
+}
+
+.div6-2{
+    align-self: start;
+    text-align: justify;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-top: -1fr;
 }
