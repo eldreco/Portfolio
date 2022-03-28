@@ -6,6 +6,7 @@ body{
     background-color: #111;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+    margin: -10px;
 }
 
 nav{
@@ -102,17 +103,10 @@ nav a{
         hsl(241deg 100% 97%) 79%,
         hsl(0deg 0% 100%) 100%
     );
-
+    padding: 10px;
 }
 
 .div1 { 
-    text-align: center;
-    font-size: x-large;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:#111;
-    align-self: center;
-}
-.div3 { 
     text-align: left;
     font-size: large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -128,11 +122,11 @@ nav a{
 
 }
 
-.div3-1, .div4-1, .div5-1{
+.div1-1, .div2-1, .div3-1{
     text-align: center;
 
 }
-.div3-2, .div3-3, .div3-4 {     
+.div1-2, .div1-3, .div1-4 {     
 
     display: flex;
     gap:10px;
@@ -142,7 +136,7 @@ nav a{
 }
 
 
-.div4{
+.div2{
     text-align: left;
     font-size: large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -156,26 +150,17 @@ nav a{
 
 }
 
-.div4-1{
+.div2-1{
     flex-basis: 100%;
 }
 
-.div4-2, .div4-3, .div4-4, .div4-5, .div4-6, .div4-7{
+.div2-2, .div2-3, .div2-4, .div2-5, .div2-6, .div2-7{
 
 
     display: flex;
     gap:10px;
     justify-content: center;
     align-items: center;
-}
-
-.div4-5{}
-
-.div4-6{
-
-}
-
-.div4-7{
 }
 
 #coin{
@@ -186,7 +171,7 @@ nav a{
     width: 15px;
 }
 
-.div5{
+.div3{
     text-align: left;
     font-size: large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -203,12 +188,12 @@ nav a{
 
 
 
-.div5-1, .div5-2, .div5-3, .div5-4{
+.div3-1, .div3-2, .div3-3, .div3-4{
     text-align: center;
 
 }
 
-.div6{
+.div4{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: 10px outset rgb(38, 63, 207);
     border-radius: 5px;
@@ -219,21 +204,21 @@ nav a{
 
 }
 
-.div3-1, .div4-1, .div5-1, .div6-1, .div7-1{
+.div1-1, .div2-1, .div3-1, .div4-1, .div5-1{
     font-size: 20px;
 }
 
-.div6-1, .div7-1, .div7-2, .div7-3{
+.div4-1, .div5-1, .div5-2, .div5-3{
     justify-self: center;
     align-self: center;
     text-align: center;
 }
 
-.div6-2{
+.div4-2{
     font-size: 18px;
     text-align: justify;
 }
-.div7{
+.div5{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: 10px outset rgb(38, 63, 207);
     border-radius: 5px;
@@ -241,10 +226,18 @@ nav a{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 25% 75%;
-    line-height: 10px;
-    padding-top: 15px;
+    line-height: 5px;
+    
 }
 
-.div7-2, .div7-3{
+.div5-2, .div5-3{
+    font-size: 15px;
+}
+
+h4{
     font-size: 20px;
+}
+
+#contact{
+    height: 100vh;
 }
