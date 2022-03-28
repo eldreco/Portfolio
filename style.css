@@ -102,8 +102,7 @@ nav a{
         hsl(241deg 100% 97%) 79%,
         hsl(0deg 0% 100%) 100%
     );
-    margin:0;
-    padding: 0;
+
 }
 
 .div1 { 
@@ -111,24 +110,22 @@ nav a{
     font-size: x-large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:#111;
-    height:100px;
-    margin-top: -10px;
-    
+    align-self: center;
 }
 .div3 { 
     text-align: left;
     font-size: large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:#111;
-    margin-left: 20px;
+
     padding-left: 20px;
-    margin-top: -60px;
+
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     border: 10px outset rgb(38, 63, 207);
     border-radius: 5px;
-    height: 130px;
+
 }
 
 .div3-1, .div4-1, .div5-1{
@@ -141,7 +138,7 @@ nav a{
     gap:10px;
     justify-content: center;
     align-items: center;
-    margin-top: -30px;
+
 }
 
 
@@ -150,16 +147,13 @@ nav a{
     font-size: large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:#111;
-    margin-left: 20px;
-    padding-left: 20px;
-    margin-top: -35px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap:10px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr;
     border: 10px outset rgb(38, 63, 207);
     border-radius: 5px;
-    height: 230px;
+
 }
 
 .div4-1{
@@ -167,21 +161,18 @@ nav a{
 }
 
 .div4-2, .div4-3, .div4-4, .div4-5, .div4-6, .div4-7{
-    width:260px;
-    height: 80px;
+
+
     display: flex;
     gap:10px;
     justify-content: center;
     align-items: center;
-    margin-top: -20px;
 }
 
-.div4-5{
-    margin-left: -10px;
-}
+.div4-5{}
 
 .div4-6{
-    margin-left: -10px;
+
 }
 
 .div4-7{
@@ -200,50 +191,60 @@ nav a{
     font-size: large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:#111;
-    margin-left: 20px;
-    padding-left: 20px;
-    margin-top: -45px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap:10px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 25% 75%;
     border: 10px outset rgb(38, 63, 207);
     border-radius: 5px;
-    height: 150px;
-}
-.div5-1{
-    flex-basis: 100%;
-    margin-top: -10px;
-}
-.div5-2, .div5-3, .div5-4{
-    text-align: center;
     line-height: 2px;
-    margin-top: -40px;
-    width: 250px;
-    
+    padding-top: 10px;
+}
+
+
+
+.div5-1, .div5-2, .div5-3, .div5-4{
+    text-align: center;
+
 }
 
 .div6{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: 10px outset rgb(38, 63, 207);
     border-radius: 5px;
-    margin-right: 15px;
-    margin-top: -60px;
+
     display: grid;
-    grid-template-rows: 0.1fr 4fr; 
-    height: 380px;
+    grid-template-rows: 10% 90%; 
+    padding: 10px;
+
 }
 
-.div6-1{
+.div3-1, .div4-1, .div5-1, .div6-1, .div7-1{
+    font-size: 20px;
+}
+
+.div6-1, .div7-1, .div7-2, .div7-3{
     justify-self: center;
     align-self: center;
-    font-size: larger;
+    text-align: center;
 }
 
 .div6-2{
-    align-self: start;
+    font-size: 18px;
     text-align: justify;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    margin-top: -30px;
+}
+.div7{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 10px outset rgb(38, 63, 207);
+    border-radius: 5px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 25% 75%;
+    line-height: 10px;
+    padding-top: 15px;
+}
+
+.div7-2, .div7-3{
+    font-size: 20px;
 }
