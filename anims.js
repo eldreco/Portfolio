@@ -49,3 +49,23 @@ function consoleText(words, id, colors) {
     }
   }, 400)
 }
+
+
+function copyGmail() {
+  /* Get the text field */
+  var copyText = "andreffcd@gmail.com";
+
+  /* Select the text field */
+
+  navigator.permissions.query({name: "clipboard-write"}).then(result => {
+    if (result.state == "granted" || result.state == "prompt") {
+      /* write to the clipboard now */
+         /* Copy the text inside the text field */
+      navigator.clipboard.writeText(copyText);
+    }
+  });
+
+
+  /* Alert the copied text */
+  alert("The adress " + copyText + " has been copied! You can now paste the adress!");
+}
