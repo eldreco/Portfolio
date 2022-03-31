@@ -1,5 +1,9 @@
+
 body{
-    width: 100vw;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+
 }
 
 nav{
@@ -19,11 +23,11 @@ nav{
 
 #welcome-section{
     height: 90vh;
-    width: 100vw;
+    width: inherit;
 }
 
 #projects{
-    height:100vh;
+    height:100vw;
 
     display: flex;
     flex-direction: row;

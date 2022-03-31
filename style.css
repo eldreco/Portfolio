@@ -242,8 +242,7 @@ h4{
     background-color: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 4rem 0px 0rem 0px;
-    
+    padding-top: 4rem;
 }
 #contact1{grid-area: 1/1/2/2;}
 #contact2{grid-area: 1/2/2/3; padding-bottom: 10px;}
