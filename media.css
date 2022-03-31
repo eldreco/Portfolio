@@ -1,8 +1,53 @@
 @media only screen and (max-width: 800px) {
-    #navbar{
-        gap:20px;
-    }
-    .nav-link {
-      font-size: 20px;
-    }
+
+  body{
+    width: inherit;
   }
+
+  #navbar{
+    gap:20px;
+  }
+  .nav-link {
+    font-size: 20px;
+  }
+
+  #projects{
+    flex-direction: column;
+    gap:10px;
+  }
+
+  #project h3, #project p, .project-mobile h3, .project-mobile p{
+    font-size: 10px;
+  }
+  #project{
+    height: 20vh;
+    width: 70vw;
+  }
+
+  .project-mobile{
+    height: 30vh;
+    width: 70vw;
+  }
+
+  #project-pic{
+    width:50%;
+    height: auto;
+    align-items: center;
+    margin-left: 25%;
+  }
+
+  #mobile-pic{
+    width:25%;
+    height: auto;
+    align-items: center;
+    margin-left: 38%;
+  }
+
+  .project-title, .project-title-mobile{
+    display: none;
+  }
+
+  .project-description-mobile{
+    margin-top: 3%;
+  }
+}
