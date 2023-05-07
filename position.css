@@ -30,10 +30,14 @@ nav{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap:40px;
-    padding-top: 20px;
+    gap:1rem;
+    /* padding-top: 20px; */
+    padding: 2rem;
 
+}
 
+#mobile-pic{
+    height: 70%;
 }
 
 .project-title{
@@ -42,11 +46,19 @@ nav{
     width: 100%;
 }
 
+.project-description-mobile{
+    padding:2%;
+}
+
 #about-me{
 
     padding-top:4rem;
     height: 90vh;
 
+}
+
+a{
+    text-decoration: none;
 }
 
 .parent {
