@@ -3,6 +3,7 @@ body::-webkit-scrollbar{
 }
 
 body{
+    background:  hsl(226deg 84% 57%) 74%;
 
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
