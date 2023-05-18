@@ -52,7 +52,7 @@ nav a{
 
 .project-title{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 6vh;
+    font-size: 3vw;
     color: white;
     margin-top: -5px;
 
@@ -75,7 +75,7 @@ nav a{
 
 .project-title-mobile{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 4vh;
+    font-size: 1.5vw;
     color: white;
     text-align: center;
     margin-top: -1px;
@@ -84,7 +84,7 @@ nav a{
 .project-description-mobile{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 2.5vh;
+    font-size: 1vw;
     margin-top: -20px;
     color: white;
 }
